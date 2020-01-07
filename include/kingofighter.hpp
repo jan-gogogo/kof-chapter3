@@ -21,10 +21,6 @@ CONTRACT kingofighter : public contract {
                 const uint64_t& expire_timestamp,
                 const signature& sig);
     
-    [[eosio::action]]
-    // void test(const signature & sig,public_key key);
-    void test();
-  
   
   private:
  
